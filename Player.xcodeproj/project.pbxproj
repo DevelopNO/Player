@@ -20,6 +20,7 @@
 		004F18CC267CD8D00043118A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AE267CD8B30043118A /* RxRelay.framework */; };
 		004F18CD267CD8D00043118A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AA267CD8B30043118A /* RxSwift.framework */; };
 		004F18EF267CDB2D0043118A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18EC267CDB1A0043118A /* SnapKit.framework */; };
+		004F18FE267CDDDE0043118A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F18FD267CDDDE0043118A /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +141,7 @@
 		004F184A267CCB610043118A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004F189C267CD8B30043118A /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = Player/RxSwift/Rx.xcodeproj; sourceTree = SOURCE_ROOT; };
 		004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = SnapKit/SnapKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		004F18FD267CDDDE0043118A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				004F182F267CCB600043118A /* Assets.xcassets */,
 				004F1831267CCB610043118A /* LaunchScreen.storyboard */,
 				004F1834267CCB610043118A /* Info.plist */,
+				004F18FD267CDDDE0043118A /* Model.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				004F182B267CCB5F0043118A /* ViewController.swift in Sources */,
 				004F1827267CCB5F0043118A /* AppDelegate.swift in Sources */,
 				004F1829267CCB5F0043118A /* SceneDelegate.swift in Sources */,
+				004F18FE267CDDDE0043118A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
