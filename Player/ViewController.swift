@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import SnapKit
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,16 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
     view.backgroundColor = .red
+    let label = UILabel(frame: .zero)
+    label.text = "Hello"
+    label.textColor = .green
 
+    view.addSubview(label)
+    label.snp.makeConstraints { make in
+      make.height.equalTo(80)
+      make.width.equalTo(150)
+      make.center.equalTo(view)
+    }
   }
 
 

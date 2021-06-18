@@ -19,6 +19,7 @@
 		004F18CB267CD8D00043118A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AC267CD8B30043118A /* RxCocoa.framework */; };
 		004F18CC267CD8D00043118A /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AE267CD8B30043118A /* RxRelay.framework */; };
 		004F18CD267CD8D00043118A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AA267CD8B30043118A /* RxSwift.framework */; };
+		004F18EF267CDB2D0043118A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18EC267CDB1A0043118A /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,20 @@
 			remoteGlobalIDString = C8E8BA551E2C181A00A4AC2C;
 			remoteInfo = Benchmarks;
 		};
+		004F18EB267CDB1A0043118A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9D819CC627D0083B827;
+			remoteInfo = SnapKit;
+		};
+		004F18ED267CDB1A0043118A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EEBCC9E219CC627E0083B827;
+			remoteInfo = "SnapKit Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -124,6 +139,7 @@
 		004F1848267CCB610043118A /* PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUITests.swift; sourceTree = "<group>"; };
 		004F184A267CCB610043118A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		004F189C267CD8B30043118A /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = Player/RxSwift/Rx.xcodeproj; sourceTree = SOURCE_ROOT; };
+		004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = SnapKit/SnapKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004F18EF267CDB2D0043118A /* SnapKit.framework in Frameworks */,
 				004F18CA267CD8D00043118A /* RxBlocking.framework in Frameworks */,
 				004F18CB267CD8D00043118A /* RxCocoa.framework in Frameworks */,
 				004F18CC267CD8D00043118A /* RxRelay.framework in Frameworks */,
@@ -211,6 +228,7 @@
 		004F189B267CD8A20043118A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */,
 				004F189C267CD8B30043118A /* Rx.xcodeproj */,
 			);
 			path = Frameworks;
@@ -229,6 +247,15 @@
 				004F18B8267CD8B30043118A /* AllTests-macOS.xctest */,
 				004F18BA267CD8B30043118A /* PerformanceTests.app */,
 				004F18BC267CD8B30043118A /* Benchmarks.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		004F18E7267CDB1A0043118A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				004F18EC267CDB1A0043118A /* SnapKit.framework */,
+				004F18EE267CDB1A0043118A /* SnapKit Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -327,6 +354,10 @@
 					ProductGroup = 004F189D267CD8B30043118A /* Products */;
 					ProjectRef = 004F189C267CD8B30043118A /* Rx.xcodeproj */;
 				},
+				{
+					ProductGroup = 004F18E7267CDB1A0043118A /* Products */;
+					ProjectRef = 004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -407,6 +438,20 @@
 			fileType = wrapper.cfbundle;
 			path = Benchmarks.xctest;
 			remoteRef = 004F18BB267CD8B30043118A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		004F18EC267CDB1A0043118A /* SnapKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SnapKit.framework;
+			remoteRef = 004F18EB267CDB1A0043118A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		004F18EE267CDB1A0043118A /* SnapKit Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SnapKit Tests.xctest";
+			remoteRef = 004F18ED267CDB1A0043118A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
