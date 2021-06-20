@@ -21,6 +21,7 @@
 		004F18CD267CD8D00043118A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18AA267CD8B30043118A /* RxSwift.framework */; };
 		004F18EF267CDB2D0043118A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004F18EC267CDB1A0043118A /* SnapKit.framework */; };
 		004F18FE267CDDDE0043118A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F18FD267CDDDE0043118A /* Model.swift */; };
+		004F1903267E798A0043118A /* example.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 004F1902267E798A0043118A /* example.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 		004F189C267CD8B30043118A /* Rx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Rx.xcodeproj; path = Player/RxSwift/Rx.xcodeproj; sourceTree = SOURCE_ROOT; };
 		004F18E6267CDB1A0043118A /* SnapKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit.xcodeproj; path = SnapKit/SnapKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		004F18FD267CDDDE0043118A /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		004F1902267E798A0043118A /* example.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = example.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				004F1831267CCB610043118A /* LaunchScreen.storyboard */,
 				004F1834267CCB610043118A /* Info.plist */,
 				004F18FD267CDDDE0043118A /* Model.swift */,
+				004F1902267E798A0043118A /* example.mp4 */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				004F1833267CCB610043118A /* LaunchScreen.storyboard in Resources */,
+				004F1903267E798A0043118A /* example.mp4 in Resources */,
 				004F1830267CCB600043118A /* Assets.xcassets in Resources */,
 				004F182E267CCB5F0043118A /* Main.storyboard in Resources */,
 			);

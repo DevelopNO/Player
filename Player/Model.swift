@@ -14,7 +14,7 @@ class Model {
   let asset : AVAsset
 
   init() {
-    let url = Bundle.main.url(forResource: "input", withExtension: "txt")
+    let url = Bundle.main.url(forResource: "example", withExtension: "mp4")
     self.asset = AVAsset(url: url!)
     item = AVPlayerItem(asset: asset)
     self.player = AVPlayer(playerItem: item)

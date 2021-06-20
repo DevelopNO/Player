@@ -10,6 +10,7 @@ import RxSwift
 import SnapKit
 
 class ViewController: UIViewController {
+  let model = Model()
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -26,7 +27,5 @@ class ViewController: UIViewController {
       make.center.equalTo(view)
     }
   }
-
-
 }
 
